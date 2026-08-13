@@ -74,10 +74,11 @@ header {
 }
 
 .logo-img {
-  height: 48px;
-  width: auto;
-  max-width: 220px;
-  object-fit: contain;
+  height: 45px !important;
+  max-height: 45px !important;
+  width: auto !important;
+  max-width: 220px !important;
+  object-fit: contain !important;
   transition: transform 0.3s ease;
 }
 
@@ -510,10 +511,11 @@ footer {
 }
 
 .footer-logo {
-  height: 46px;
-  width: auto;
-  max-width: 210px;
-  object-fit: contain;
+  height: 44px !important;
+  max-height: 44px !important;
+  width: auto !important;
+  max-width: 200px !important;
+  object-fit: contain !important;
   margin-bottom: 15px;
   display: inline-block;
   background-color: var(--white);
@@ -605,8 +607,9 @@ footer {
   }
 
   .logo-img {
-    height: 38px;
-    max-width: 170px;
+    height: 36px !important;
+    max-height: 36px !important;
+    max-width: 160px !important;
   }
 
   .hamburger {
